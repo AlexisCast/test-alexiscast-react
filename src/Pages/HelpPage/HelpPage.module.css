@@ -1,0 +1,11 @@
+.SectionTwo {
+	flex: 2 !important;
+	display: flex;
+	flex-direction: column;
+  justify-content: flex-start;
+}
+
+.SectionTwo a {
+	padding: 0.5rem 1.5rem;
+	text-align: right;
+}

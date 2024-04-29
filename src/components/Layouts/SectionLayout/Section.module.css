@@ -1,0 +1,23 @@
+.Section {
+	flex: 1;
+	padding: 0 3rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+	.Section {
+		width: 100%;
+		min-height: 200px;
+	}
+}
+
+/* Tablet (768px to desktop size): */
+@media (min-width: 768px) and (max-width: 991px) {
+	.Section {
+		width: 100%;
+	}
+}

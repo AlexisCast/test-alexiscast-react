@@ -1,0 +1,24 @@
+.PageLayout {
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 700px;
+	width: 930px;
+	box-shadow: 0px 0px 10px 10px rgb(175, 175, 175);
+}
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+	.PageLayout {
+		flex-direction: column;
+		width: 80vw;
+		height: auto;
+	}
+}
+
+/* Tablet (768px to desktop size): */
+@media (min-width: 768px) and (max-width: 991px) {
+	.PageLayout {
+		flex-direction: column;
+		width: 70vw;
+	}
+}

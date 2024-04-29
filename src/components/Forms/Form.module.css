@@ -1,0 +1,10 @@
+.Form label {
+	text-align: left;
+}
+.Form {
+	text-align: end;
+}
+
+.Form button {
+	margin-top: 3rem !important;
+}

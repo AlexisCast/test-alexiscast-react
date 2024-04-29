@@ -1,0 +1,16 @@
+.SectionOne {
+	background-color: #4bbe98;
+	align-items: center;
+}
+
+.SectionTwo {
+	flex: 2 !important;
+	background-color: #fbfbfb;
+	display: flex;
+	flex-direction: column;
+}
+
+.SectionTwo a {
+	padding: 0.5rem 1.5rem;
+	text-align: right;
+}
